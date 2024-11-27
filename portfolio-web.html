@@ -3,41 +3,46 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Victor Uen Personal Portfolio project" >
     <title>Victor Uen Web Portfolio</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <header>
-        <nav>
-            <h1>Meu Portfólio</h1>
+        <nav id="navbar">
             <ul>
-                <li><a href="#sobre-mim">Sobre</a></li>
-                <li><a href="#projetos">Projetos</a></li>
-                <li><a href="#contato">Contato</a></li>
+                <li><a href="#about-me">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
             </ul>
         </nav>
     </header>
+    <main>
+        <section id="welcome" role="region">
+            <h1>Hey I'm Victor!</h1>
+            <h3> computer science student</h3>
+        </section>
+        <section id="about-me" role="region">
+            <h2>Sobre Mim</h2>
+            <p>Welcome to my portfolio webpage! My name is Victor Uen, I'm a 22yrs old computer science student at Cesar School in Brazil, currently on 1st term. As for now, I'm enjoying to learn the basics of Python, HTML/CSS and JavaScript. Aside from computer science, I have a diploma in Civil Engineering at NBCC(Canada) and I'm taking business classes at Universidade de Pernambuco(Brazil).</p>
+        </section>
 
-    <section id="sobre-mim">
-        <h2>Sobre Mim</h2>
-        <p>Sou [Seu Nome], apaixonado(a) por tecnologia e desenvolvimento de software. Gosto de criar soluções que fazem a diferença.</p>
-    </section>
+        <section id="projects" role="region">
+            <h2>Meus Projetos</h2>
+            <div class="project">
+                <h3>Gerenciador de Corridas</h3>
+                <p>This is my 1st project done in Python at Cesar School, called 'Gerenciador de Corridas'. It's a system the aids the user to manage and view informations about his trainings and competitions.</p>
+                <a href="https://github.com/victor-uen/PROJETO-PYTHON-Gerenciamento-de-Corridas-" target="_blank">View on GitHub</a>
+            </div>
+        </section>
 
-    <section id="projetos">
-        <h2>Meus Projetos</h2>
-        <div class="projeto">
-            <h3>Gerenciador de Corridas</h3>
-            <p>Primeiro projeto que fiz em Python na Cesar School. Se trata de um Gerenciador de Corridas para auxiliar um corredor a acompanhar informações sobre seus treinos e competições.</p>
-            <a href="https://github.com/victor-uen/PROJETO-PYTHON-Gerenciamento-de-Corridas-" target="_blank">Veja no GitHub</a>
-        </div>
-    </section>
+        <section id="contact" role="region">
+            <h2>Contact</h2>
+            <p>Email: <a href="mailto:vtfu@cesar.school">vtfu@cesar.school</a></p>
+            <p>LinkedIn: <a href="https://github.com/victor-uen" target="_blank">LinkedIn Profile</a></p>
+        </section>
+    </main>
 
-    <section id="contato">
-        <h2>Contato</h2>
-        <p>Email: <a href="mailto:vtfu@cesar.school">vtfu@cesar.school</a></p>
-        <p>LinkedIn: <a href="https://github.com/victor-uen" target="_blank">Perfil no LinkedIn</a></p>
-    </section>
-    
     <script src="script.js"></script>
 </body>
 </html>
